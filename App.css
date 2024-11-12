@@ -1,0 +1,60 @@
+* {
+  font-family: 'Arial', sans-serif;
+  color: #333333; /* Dark grey for text */
+}
+
+.App {
+  text-align: center;
+  color: #333333;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 10s linear;
+}
+
+.App-header {
+  background-color: #2a3d55; /* Cool, deep blue for header background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #ffffff; /* White text color */
+}
+
+.App-link {
+  color: #ffa500; /* Orange for links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #ff6347; /* Tomato color on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .App-logo {
+    height: 40vmin;
+  }
+
+  .App-header {
+    font-size: calc(10px + 3vmin);
+  }
+}

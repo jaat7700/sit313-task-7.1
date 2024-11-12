@@ -1,0 +1,17 @@
+* {
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f7fa; /* Light, soft background color */
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Consolas, 'Courier New', monospace;
+  color: #2a3d55; /* Matches App header for consistency */
+}

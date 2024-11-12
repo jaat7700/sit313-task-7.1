@@ -1,0 +1,144 @@
+* {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ed6363;
+  }
+  
+  header {
+    background-color: #6767e1;
+    color: #fef0f0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .log {
+    color: #00ff04;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.2rem; /* Adjusted size */
+  }
+  
+  .bar {
+    text-decoration: none;
+    color: #87CEEB;
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjusted font size */
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .bar:hover {
+    color: #f0e68c;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #87CEEB;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #f0e68c;
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 150px 0;
+    color: #f0f0f0;
+    margin-top: 80px;
+    background-color: #46466e;
+    background-image: linear-gradient(45deg, rgba(44, 44, 77, 0.8), rgba(70, 70, 110, 0.8));
+    background-blend-mode: overlay; /* Adds depth with a gradient overlay */
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: #ffd700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #aaa; /* Slightly darker border */
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fafafa; /* Light background color */
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+  }
+  
+  .search-bar input:focus {
+    border-color: #496a8d; /* Border color change on focus */
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 12px 25px;
+    background-color: #496a8d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #375072;
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+      background-color: #2c2c4d; /* Background for mobile dropdown */
+      padding: 10px;
+      border-top: 1px solid #444;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    .hero {
+      padding: 100px 20px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

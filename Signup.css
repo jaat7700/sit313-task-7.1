@@ -1,0 +1,125 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup {
+    flex-direction: column;
+    border: 2px solid #333; /* Darker border color */
+    border-radius: 12px; /* Slightly rounded corners */
+    padding: 25px; /* Increased padding for spacious look */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+    font-size: 18px;
+    display: flex;
+    background-color: #f8faff; /* Light background color */
+    width: 45%; /* Slightly wider for better readability */
+    margin-top: 80px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added transformation */
+  }
+  
+  .signup:hover {
+    transform: scale(1.02); /* Slight scaling effect on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .signup {
+      width: 80%;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1f3d7a; /* Slightly darker text color */
+    margin-bottom: 25px; /* Increased margin for better separation */
+  }
+  
+  .signup form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .signup label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #d61b1b; /* Darker label color */
+  }
+  
+  .signup input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ef2121; /* Subtle border color */
+    border-radius: 6px; /* More rounded corners */
+    font-size: 16px;
+    background-color: #e14e4e; /* Crisp white background */
+  }
+  
+  .signup button {
+    background-color: #edf1f5;
+    color: rgb(252, 33, 33);
+    padding: 14px 22px;
+    border: none;
+    border-radius: 6px; /* Enhanced roundness */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signup button:hover {
+    background-color: #1e7ee5;
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .signup button:disabled {
+    background-color: #e72828; /* Softer disabled color */
+    cursor: not-allowed;
+  }
+  
+  .alert {
+    background-color: #f2edec; /* Enhanced alert color */
+    color: rgb(225, 24, 24);
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .acc {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .acc a {
+    color: #b3ff00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .acc a:hover {
+    color: #dcef4c;
+    text-decoration: underline;
+  }
+  
+  .input {
+    margin-top: 15px;
+    display: flex;
+    width: 65%; /* Adjusted width */
+    padding-top: 80px;
+  }
+  
+  .button:hover {
+    background-color: #00b327;
+    color: rgb(231, 29, 29);
+    opacity: 0.9;
+  }
+  
